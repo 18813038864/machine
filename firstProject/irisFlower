@@ -1,0 +1,67 @@
+# -*- coding: UTF-8 -*-
+from matplotlib import pyplot
+from pandas import read_csv
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.model_selection import train_test_split, KFold, cross_val_score
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+
+filename = 'iris.data.csv'
+names = ['separ-length','separ-width','petal-length','petal-width','class']
+dataset = read_csv(filename,names=names)
+print ('数据维度： 行 %s, 列 %s ' % dataset.shape)
+
+# print (dataset.head(10))
+# print (dataset.describe())
+# print (dataset.groupby('class').size())
+
+#箱线图
+# dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+# pyplot.show()
+
+# 直方图
+# dataset.hist()
+# pyplot.show()
+
+array = dataset.values
+x = array[:, 0:4]
+y = array[:,4]
+validation_size = 0.2
+seed = 7
+x_train, x_validation, y_train, y_validation=train_test_split(x,y,test_size=validation_size,random_state=seed)
+
+models = {}
+models['LR'] = LogisticRegression()
+models['LDA'] = LinearDiscriminantAnalysis()
+models['KNN'] = KNeighborsClassifier()
+models['CART'] = DecisionTreeClassifier()
+models['NB'] = GaussianNB()
+models['SVM'] = SVC()
+
+# results = []
+# for key in models:
+#     kfold = KFold(n_splits=10, random_state=seed)
+#     cv_result = cross_val_score(models[key], x_train, y_train,cv=kfold, scoring='accuracy')
+#     results.append(cv_result)
+#     print('%s:%f (%f)' % (key, cv_result.mean(), cv_result.std()))
+
+# fig = pyplot.figure()
+# fig.suptitle('Algorithm Comparision')
+# ax = fig.add_subplot(111)
+# pyplot.boxplot(results)
+# ax.set_xticklabels(models.keys())
+# pyplot.show()
+
+svm = SVC()
+svm.fit(x_train,y_train)
+predictions = svm.predict(x_validation)
+print (accuracy_score(y_validation,predictions))
+print (confusion_matrix(y_validation,predictions))
+print (classification_report(y_validation,predictions))
+
+
+

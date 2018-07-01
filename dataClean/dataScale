@@ -1,0 +1,27 @@
+#coding=utf-8
+from numpy import set_printoptions
+from pandas import read_csv
+from sklearn.preprocessing import MinMaxScaler, StandardScaler, Normalizer, Binarizer
+
+filename = 'pima_data.csv'
+names = ['preg', 'plas', 'press', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = read_csv(filename, names=names)
+
+arr = data.values
+x = arr[:, 0:8]
+y = arr[:, 8]
+# transformer = MinMaxScaler(feature_range=(0, 1))
+# new_x = transformer.fit_transform(x)
+
+
+# transformer = StandardScaler().fit(x)
+# new_x = transformer.transform(x)
+
+# transformer=Normalizer().fit(x)
+# new_x = transformer.transform(x)
+
+transformer = Binarizer(threshold=0.0).fit(x)
+new_x = transformer.transform(x)
+
+set_printoptions(precision=3, linewidth=100)
+print new_x[::100]

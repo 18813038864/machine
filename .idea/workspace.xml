@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3aa776-6281-4e5c-bedd-3074dc6fdef7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataClean/dataScale" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataClean/pima_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataFeatureSelection/pima_data.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +32,7 @@
     <SUITE FILE_PATH="coverage/machine$loggingTest.coverage" NAME="loggingTest Coverage Results" MODIFIED="1495286612418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/logging" />
     <SUITE FILE_PATH="coverage/machine$dataAnalysis.coverage" NAME="dataAnalysis Coverage Results" MODIFIED="1530407397028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAnalysis" />
     <SUITE FILE_PATH="coverage/machine$numpyTest.coverage" NAME="numpyTest Coverage Results" MODIFIED="1530350945878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/numpy" />
+    <SUITE FILE_PATH="coverage/machine$dataFeatureSelectionTest.coverage" NAME="dataFeatureSelectionTest Coverage Results" MODIFIED="1530435687735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataFeatureSelection" />
     <SUITE FILE_PATH="coverage/machine$matplotlibTest.coverage" NAME="matplotlibTest Coverage Results" MODIFIED="1530351338302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/matplotlib" />
     <SUITE FILE_PATH="coverage/machine$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1515894224785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/machine$client.coverage" NAME="client Coverage Results" MODIFIED="1491273006520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/socket" />
@@ -48,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dataScale" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataClean/dataScale">
+      <file leaf-file-name="dataFeatureSelectionTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="134">
+              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="e#14#48#0" expanded="true" />
               </folding>
@@ -134,6 +135,7 @@
         <option value="$PROJECT_DIR$/dataAnalysis/analysisTest.py" />
         <option value="$PROJECT_DIR$/dataView/dataViewTest.py" />
         <option value="$PROJECT_DIR$/dataClean/dataScale" />
+        <option value="$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py" />
       </list>
     </option>
   </component>
@@ -187,6 +189,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\machine\dataFeatureSelection" />
       <recent name="E:\python\machine\dataClean" />
       <recent name="E:\python\machine\dataView" />
       <recent name="E:\python\machine\dataAnalysis" />
@@ -209,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataScale">
+  <component name="RunManager" selected="Python.dataFeatureSelectionTest">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -455,20 +458,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dataImportTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataFeatureSelectionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataImport" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataFeatureSelection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machine" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataImport/dataImportTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -510,19 +513,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.dataImportTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dataAnalysis" />
-      <item index="2" class="java.lang.String" itemvalue="Python.analysisTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dataViewTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dataScale" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dataAnalysis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.analysisTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dataViewTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dataScale" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dataScale" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dataViewTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.analysisTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dataAnalysis" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dataImportTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dataScale" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dataViewTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.analysisTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dataAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -537,6 +540,14 @@
       <option name="presentableId" value="Default" />
       <updated>1481381781209</updated>
     </task>
+    <task id="LOCAL-00001" summary="dataClean">
+      <created>1530432490553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530432490553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -555,8 +566,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50490195" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5247019" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6303237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40545145" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42248723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50653595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -578,6 +589,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dataClean" />
+    <option name="LAST_COMMIT_MESSAGE" value="dataClean" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -592,20 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ud120-projects/choose_your_own/your_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ud120-projects/choose_your_own/class_vis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ud120-projects/svm/svm_author_id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -931,7 +932,7 @@
         <state relative-caret-position="264">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -956,6 +957,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFeatureSelection/pima_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
           </folding>

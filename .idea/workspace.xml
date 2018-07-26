@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3aa776-6281-4e5c-bedd-3074dc6fdef7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifyAlgorithom/pima_data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regressAlgorithom/housing.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regressAlgorithom/regressAlgorithomTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pipeline/pima_data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pipeline/pipelineTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py" afterPath="$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +28,7 @@
     <SUITE FILE_PATH="coverage/machine$dataScale.coverage" NAME="dataScale Coverage Results" MODIFIED="1530430063699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataClean" />
     <SUITE FILE_PATH="coverage/machine$dataViewTest.coverage" NAME="dataViewTest Coverage Results" MODIFIED="1530413796035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataView" />
     <SUITE FILE_PATH="coverage/machine$your_algorithm.coverage" NAME="your_algorithm Coverage Results" MODIFIED="1505034164260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ud120-projects/choose_your_own" />
+    <SUITE FILE_PATH="coverage/machine$pipelineTest.coverage" NAME="pipelineTest Coverage Results" MODIFIED="1532612238229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pipeline" />
     <SUITE FILE_PATH="coverage/machine$logging.coverage" NAME="logging Coverage Results" MODIFIED="1495283572291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/logging" />
     <SUITE FILE_PATH="coverage/machine$algorithmEvaludateTest.coverage" NAME="algorithmEvaludateTest Coverage Results" MODIFIED="1532270857762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithmEvaluate" />
     <SUITE FILE_PATH="coverage/machine$startup.coverage" NAME="startup Coverage Results" MODIFIED="1507558405361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ud120-projects/tools" />
@@ -45,7 +45,7 @@
     <SUITE FILE_PATH="coverage/machine$outlier_removal_regression.coverage" NAME="outlier_removal_regression Coverage Results" MODIFIED="1512890691512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ud120-projects/outliers" />
     <SUITE FILE_PATH="coverage/machine$k_means_cluster.coverage" NAME="k_means_cluster Coverage Results" MODIFIED="1513006460173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ud120-projects/k_means" />
     <SUITE FILE_PATH="coverage/machine$parse_out_email_text.coverage" NAME="parse_out_email_text Coverage Results" MODIFIED="1516503428256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ud120-projects/tools" />
-    <SUITE FILE_PATH="coverage/machine$classfiyAlgorithomTest.coverage" NAME="classfiyAlgorithomTest Coverage Results" MODIFIED="1532527089937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifyAlgorithom" />
+    <SUITE FILE_PATH="coverage/machine$classfiyAlgorithomTest.coverage" NAME="classfiyAlgorithomTest Coverage Results" MODIFIED="1532611297544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classifyAlgorithom" />
     <SUITE FILE_PATH="coverage/machine$LogTest.coverage" NAME="LogTest Coverage Results" MODIFIED="1503805035258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../practice/logging" />
     <SUITE FILE_PATH="coverage/machine$algorithmEvaMatrixTest.coverage" NAME="algorithmEvaMatrixTest Coverage Results" MODIFIED="1532527053906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithmEvaMatrix" />
   </component>
@@ -130,9 +130,10 @@
         <option value="$PROJECT_DIR$/dataFeatureSelection/dataFeatureSelectionTest.py" />
         <option value="$PROJECT_DIR$/algorithmEvaluate/algorithmEvaludateTest.py" />
         <option value="$PROJECT_DIR$/algorithmEvaMatrix/algorithmEvaMatrixTest.py" />
-        <option value="$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py" />
         <option value="$PROJECT_DIR$/RegressAlgorithom/regressAlgorithomTest.py" />
         <option value="$PROJECT_DIR$/regressAlgorithom/regressAlgorithomTest.py" />
+        <option value="$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py" />
+        <option value="$PROJECT_DIR$/pipeline/pipelineTest.py" />
       </list>
     </option>
   </component>
@@ -186,11 +187,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\machine\pipeline" />
       <recent name="E:\python\machine\RegressAlgorithom" />
       <recent name="E:\python\machine\classifyAlgorithom" />
       <recent name="E:\python\machine\algorithmEvaMatrix" />
       <recent name="E:\python\machine\algorithmEvaluate" />
-      <recent name="E:\python\machine\dataFeatureSelection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\machine\dataImport" />
@@ -209,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classfiyAlgorithomTest">
+  <component name="RunManager" selected="Python.pipelineTest">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -491,38 +492,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dataScale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pipelineTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataClean" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pipeline" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machine" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataClean/dataScale" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pipeline/pipelineTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.dataScale" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.algorithmEvaludateTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.algorithmEvaMatrixTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.classfiyAlgorithomTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.algorithmEvaludateTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.algorithmEvaMatrixTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.classfiyAlgorithomTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pipelineTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classfiyAlgorithomTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.algorithmEvaMatrixTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.algorithmEvaludateTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dataScale" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pipelineTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.classfiyAlgorithomTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.algorithmEvaMatrixTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.algorithmEvaludateTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dataFeatureSelectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -558,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532526126563</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dataFeatureSelection">
+      <created>1532610291388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532610291388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -579,7 +587,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4684838" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29812607" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42248723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -619,20 +627,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ud120-projects/final_project/final_project_dataset_modified.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168805">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ud120-projects/outliers/outlier_removal_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="77" column="64" lean-forward="true" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python27/Lib/pickle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2085">
@@ -928,22 +922,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithmEvaMatrix/algorithmEvaMatrixTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="46" selection-end-column="64" />
           <folding>
-            <element signature="e#14#33#0" expanded="true" />
+            <element signature="e#14#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -953,7 +937,35 @@
         <state relative-caret-position="56">
           <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <element signature="e#14#89#0" expanded="true" />
+            <element signature="e#14#89#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipeline/pima_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifyAlgorithom/classfiyAlgorithomTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipeline/pipelineTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
